@@ -1,0 +1,38 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "HUONG-DAN-CHO-IT.md",
+      "preview/**",
+      ".git/**",
+      ".firebase/**",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "rewrites": [
+      {
+        "source": "/ai-sme",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/ai-sme/**",
+        "destination": "/index.html"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/workshop02",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/workshop02/**",
+        "destination": "/",
+        "type": 301
+      }
+    ]
+  }
+}

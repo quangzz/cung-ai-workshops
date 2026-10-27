@@ -1,0 +1,4 @@
+1:"$Sreact.fragment"
+2:I[39756,["/ai-sme/_next/static/chunks/05-c3ty_6dwfk.js","/ai-sme/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+3:I[37457,["/ai-sme/_next/static/chunks/05-c3ty_6dwfk.js","/ai-sme/_next/static/chunks/14mrh2-p_w84d.js"],"default"]
+0:{"rsc":["$","$1","c",{"children":[null,[["$","style",null,{"children":"\n        @keyframes spin {\n          to { transform: rotate(360deg); }\n        }\n        /* Hide desktop table, show mobile cards on small screens */\n        @media (max-width: 768px) {\n          .admin-page table {\n            display: none !important;\n          }\n          .admin-page [data-mobile-cards] {\n            display: block !important;\n          }\n        }\n      "}],["$","div",null,{"className":"admin-page","children":["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]}]]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"7CVU1DO6VEjeUjmZESfYv"}

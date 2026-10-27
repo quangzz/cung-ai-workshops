@@ -1,0 +1,636 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Mindset for SME Leaders &amp; Solopreneurs · Workshop độc quyền CLB Cùng AI</title>
+<meta name="description" content="Workshop 5 buổi, 14 giờ giúp lãnh đạo SME và solopreneur đi từ “thử AI” đến “vận hành bằng AI”, thực hành trên chính quy trình của doanh nghiệp bạn.">
+<meta property="og:title" content="AI Mindset for SME Leaders &amp; Solopreneurs">
+<meta property="og:description" content="Workshop độc quyền · CLB Cùng AI. Thực hành trên quy trình thật, mang về workflow AI đã kiểm thử.">
+<meta property="og:image" content="https://workshop.cungai.vn/images/og-cover.jpg">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#1E3A5F;--gold:#E3BB6B;--page:#F5F6F2;color-scheme:light}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--navy:#1E3A5F;--gold:#E3BB6B;--page:#F5F6F2}}
+:root[data-theme="dark"]{--navy:#1E3A5F;--gold:#E3BB6B;--page:#F5F6F2}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--page);overflow-x:hidden}
+a:hover{filter:brightness(1.06)}
+summary::-webkit-details-marker{display:none}
+.faq-ic svg{transition:transform .2s}
+details[open] .faq-ic svg{transform:rotate(90deg)}
+.car-track::-webkit-scrollbar{display:none}
+
+/* Premium Hover & Interactive Animations */
+.btn-cta {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), 
+              box-shadow 0.28s cubic-bezier(0.16, 1, 0.3, 1), 
+              filter 0.28s ease !important;
+  will-change: transform, box-shadow;
+  cursor: pointer;
+}
+
+.btn-cta::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -70%;
+  width: 50%;
+  height: 200%;
+  background: linear-gradient(
+    60deg,
+    rgba(255, 255, 255, 0) 10%,
+    rgba(255, 255, 255, 0.45) 50%,
+    rgba(255, 255, 255, 0) 90%
+  );
+  transform: rotate(25deg);
+  transition: transform 0.75s cubic-bezier(0.16, 1, 0.3, 1);
+  pointer-events: none;
+}
+
+.btn-cta:hover {
+  transform: translateY(-3px) scale(1.025) !important;
+  box-shadow: 0 14px 32px rgba(227, 187, 107, 0.46), 0 4px 12px rgba(30, 58, 95, 0.25) !important;
+  filter: brightness(1.04) !important;
+}
+
+.btn-cta:hover::after {
+  transform: translateX(380%) rotate(25deg);
+}
+
+.btn-cta:active {
+  transform: translateY(-1px) scale(0.98) !important;
+  box-shadow: 0 6px 16px rgba(227, 187, 107, 0.35) !important;
+}
+
+/* Slider Controls */
+.car-prev, .car-next {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), 
+              background 0.25s ease, 
+              box-shadow 0.25s ease !important;
+}
+
+.car-prev:hover {
+  transform: translateY(-50%) scale(1.14) !important;
+  background: #FFFFFF !important;
+  box-shadow: 0 8px 24px rgba(30, 58, 95, 0.32) !important;
+}
+
+.car-next:hover {
+  transform: translateY(-50%) scale(1.14) !important;
+  background: #FFFFFF !important;
+  box-shadow: 0 8px 24px rgba(30, 58, 95, 0.32) !important;
+}
+
+.car-prev:active, .car-next:active {
+  transform: translateY(-50%) scale(0.94) !important;
+}
+
+.car-dot {
+  transition: transform 0.2s ease !important;
+}
+
+.car-dot:hover span {
+  transform: scale(1.4) !important;
+  background: #1E3A5F !important;
+}
+
+/* FAQ Accordion hover */
+details summary {
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+details summary:hover {
+  color: #0F6E6B !important;
+}
+
+details summary:hover .faq-ic {
+  background: #E3BB6B !important;
+  transform: scale(1.08);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+details summary:hover .faq-ic svg {
+  stroke: #1E3A5F !important;
+}
+</style>
+</head>
+<body>
+
+
+<div style="font-family: 'Inter', system-ui, sans-serif; color: #1E3A5F; background: #F5F6F2; width: 100%; line-height: 1.55">
+
+<!-- NAV -->
+<div style="background: #1E3A5F; border-bottom: 1px solid rgba(143,179,196,0.18)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 18px 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap">
+<div style="display: flex; align-items: center; gap: 12px">
+<svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><circle cx="17" cy="17" r="15" fill="none" stroke="#8FB3C4" stroke-opacity="0.5" stroke-width="1.5"></circle><circle cx="17" cy="17" r="5" fill="#E3BB6B"></circle><circle cx="6" cy="8" r="2.5" fill="#8FCFD4"></circle><circle cx="28" cy="25" r="2.5" fill="#E3BB6B"></circle></svg>
+<div style="color: #FFFFFF; font-weight: 700; font-size: 16px; letter-spacing: 0.2px">CLB Cùng AI</div>
+</div>
+<a href="https://tally.so/r/aONGoy" class="btn-cta" style="background: #E3BB6B; color: #1E3A5F; font-weight: 700; font-size: 15px; text-decoration: none; padding: 12px 22px; border-radius: 999px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Đăng ký ngay</a>
+</div>
+</div>
+
+<!-- HERO -->
+<div style="background: #1E3A5F; position: relative; overflow: hidden">
+<svg style="position: absolute; left: -60px; top: 40px; width: 420px; height: 520px; opacity: 0.4" viewBox="0 0 420 520" aria-hidden="true"><g fill="none" stroke="#8FB3C4" stroke-width="1.5" stroke-opacity="0.28"><circle cx="210" cy="260" r="70"></circle><circle cx="210" cy="260" r="150" stroke-opacity="0.12"></circle><polyline points="90,60 210,260 120,460"></polyline><polyline points="90,60 330,130 210,260 360,420"></polyline><polyline points="20,300 120,460"></polyline></g><circle cx="210" cy="260" r="11" fill="#E3BB6B"></circle><circle cx="90" cy="60" r="8" fill="#E3BB6B"></circle><circle cx="330" cy="130" r="6" fill="#6F9DA8"></circle><circle cx="120" cy="460" r="7" fill="#6F9DA8"></circle><circle cx="360" cy="420" r="6" fill="#E3BB6B"></circle><circle cx="20" cy="300" r="5" fill="#6F9DA8"></circle></svg>
+<svg style="position: absolute; right: -40px; top: 10px; width: 420px; height: 520px; opacity: 0.4" viewBox="0 0 420 520" aria-hidden="true"><g fill="none" stroke="#8FB3C4" stroke-width="1.5" stroke-opacity="0.28"><circle cx="220" cy="240" r="70"></circle><circle cx="220" cy="240" r="150" stroke-opacity="0.12"></circle><polyline points="110,70 220,240 340,430"></polyline><polyline points="110,70 300,40 390,200 340,430"></polyline><polyline points="220,240 150,400 110,70"></polyline></g><circle cx="220" cy="240" r="11" fill="#E3BB6B"></circle><circle cx="110" cy="70" r="7" fill="#6F9DA8"></circle><circle cx="300" cy="40" r="8" fill="#E3BB6B"></circle><circle cx="390" cy="200" r="6" fill="#6F9DA8"></circle><circle cx="340" cy="430" r="7" fill="#E3BB6B"></circle><circle cx="150" cy="400" r="6" fill="#6F9DA8"></circle></svg>
+<div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 96px 24px 72px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 24px">
+<div style="text-wrap: balance; color: #E3BB6B; font-weight: 700; font-size: 14px; letter-spacing: 4px; text-transform: uppercase">Workshop độc quyền · CLB Cùng AI</div>
+<h1 style="text-wrap: balance; margin: 0; color: #FFFFFF; font-weight: 800; font-size: clamp(40px, 6.4vw, 84px); line-height: 1.04; letter-spacing: -0.03em; max-width: 1000px">AI Mindset for <span style="color: #E3BB6B">SME Leaders &amp; Solopreneurs</span></h1>
+<p style="text-wrap: balance; margin: 0; color: #D6E2EA; font-size: clamp(17px, 1.6vw, 21px); max-width: 760px">Đi từ “thử AI” đến “vận hành bằng AI”. Thực hành trên chính quy trình của bạn, mang về một workflow đã kiểm thử và kế hoạch triển khai 30 ngày.</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px">
+<div style="color: #FFFFFF; font-weight: 600; font-size: 15px; padding: 9px 20px; border: 1.5px solid rgba(143,190,200,0.55); border-radius: 999px">Agentic Vision</div>
+<div style="color: #FFFFFF; font-weight: 600; font-size: 15px; padding: 9px 20px; border: 1.5px solid rgba(143,190,200,0.55); border-radius: 999px">Agentic Workflow</div>
+<div style="color: #FFFFFF; font-weight: 600; font-size: 15px; padding: 9px 20px; border: 1.5px solid rgba(143,190,200,0.55); border-radius: 999px">Agentic Business</div>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 18px 28px; margin-top: 12px">
+<a href="https://tally.so/r/aONGoy" class="btn-cta" style="background: #E3BB6B; color: #1E3A5F; font-weight: 800; font-size: 18px; text-decoration: none; padding: 18px 40px; border-radius: 999px; min-height: 60px; box-sizing: border-box; display: inline-flex; align-items: center; box-shadow: 0 8px 24px rgba(227,187,107,0.28)">Đăng ký ngay</a>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 4px; text-align: center">
+<div style="display: flex; align-items: baseline; justify-content: center; flex-wrap: wrap; gap: 4px 12px">
+<del style="color: #9FB2C2; font-size: 20px; font-weight: 600">10.000.000đ</del>
+<span style="color: #FFFFFF; font-size: clamp(32px, 3.4vw, 42px); font-weight: 800; line-height: 1.1">9.000.000đ</span>
+</div>
+<div style="color: #F0C987; font-size: 15px; font-weight: 600; text-wrap: balance">Ưu đãi giảm 10% khi đăng ký nhóm từ 2 người trở lên</div>
+</div>
+</div>
+<div style="color: #8FCFD4; font-weight: 600; font-size: 15px; text-wrap: balance">2 buổi tối mỗi tuần · Online hoặc offline tại Hà Nội</div>
+</div>
+<div style="position: relative; max-width: 1200px; margin: 0 auto; padding: 0 24px 64px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1px; background: rgba(143,179,196,0.22); border: 1px solid rgba(143,179,196,0.22); border-radius: 18px; overflow: hidden">
+<div style="background: #1A3456; padding: 24px 28px"><div style="color: #E3BB6B; font-weight: 800; font-size: 34px; line-height: 1.1">14 giờ</div><div style="color: #C9D6E0; font-size: 15px; margin-top: 6px">tổng thời lượng</div></div>
+<div style="background: #1A3456; padding: 24px 28px"><div style="color: #E3BB6B; font-weight: 800; font-size: 34px; line-height: 1.1">5 buổi</div><div style="color: #C9D6E0; font-size: 15px; margin-top: 6px">4 buổi học × 3 giờ, 1 workshop Q&amp;A × 2 giờ</div></div>
+<div style="background: #1A3456; padding: 24px 28px"><div style="color: #E3BB6B; font-weight: 800; font-size: 34px; line-height: 1.1">Hybrid</div><div style="color: #C9D6E0; font-size: 15px; margin-top: 6px">online hoặc offline tại Hà Nội, có recording</div></div>
+</div>
+</div>
+</div>
+
+<!-- VẤN ĐỀ -->
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px 40px">
+<div style="color: #8A5A00; font-weight: 700; font-size: 13px; letter-spacing: 3px; text-transform: uppercase">Vấn đề</div>
+<h2 style="text-wrap: balance; margin: 12px 0 0; font-weight: 800; font-size: clamp(30px, 3.6vw, 46px); line-height: 1.12; letter-spacing: -0.02em; max-width: 880px">Đã có AI trong tay, nhưng vì sao AI chưa thật sự làm việc cho bạn?</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin-top: 40px">
+<div style="background: #FFFFFF; border: 1px solid #DDE3E8; border-radius: 18px; padding: 28px">
+<div style="width: 44px; height: 44px; border-radius: 12px; background: #E8F1F1; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F6E6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"></path><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z"></path></svg></div>
+<div style="font-weight: 700; font-size: 20px; margin-top: 18px">Dừng ở mức “viết hộ”</div>
+<div style="color: #4F5D6E; font-size: 16px; margin-top: 8px">Dùng AI lẻ tẻ cho từng câu lệnh, chưa giao được cả một chuỗi công việc có đầu vào, đầu ra rõ ràng.</div>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #DDE3E8; border-radius: 18px; padding: 28px">
+<div style="width: 44px; height: 44px; border-radius: 12px; background: #E8F1F1; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F6E6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg></div>
+<div style="font-weight: 700; font-size: 20px; margin-top: 18px">Không rõ giao gì, ai kiểm soát</div>
+<div style="color: #4F5D6E; font-size: 16px; margin-top: 8px">Chưa biết việc nào đáng giao cho AI, ai duyệt kết quả và đo hiệu quả bằng chỉ số nào.</div>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #DDE3E8; border-radius: 18px; padding: 28px">
+<div style="width: 44px; height: 44px; border-radius: 12px; background: #E8F1F1; display: flex; align-items: center; justify-content: center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#0F6E6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h7"></path><path d="M14 6h7"></path><path d="M3 12h4"></path><path d="M11 12h10"></path><path d="M3 18h10"></path><path d="M17 18h4"></path></svg></div>
+<div style="font-weight: 700; font-size: 20px; margin-top: 18px">Chưa có quy trình thống nhất</div>
+<div style="color: #4F5D6E; font-size: 16px; margin-top: 8px">Mỗi người làm một kiểu, chưa có SOP (quy trình vận hành tiêu chuẩn) thống nhất để AI có thể bám theo và người có thể kiểm tra.</div>
+</div>
+</div>
+</div>
+
+<!-- GIẢI PHÁP + ĐỐI TƯỢNG -->
+<div style="max-width: 1200px; margin: 0 auto; padding: 40px 24px 96px">
+<div style="background: #FFFFFF; border: 1px solid #DDE3E8; border-radius: 24px; padding: clamp(28px, 4vw, 56px); display: flex; flex-wrap: wrap; gap: 40px">
+<div style="flex: 999 1 420px; min-width: 0">
+<div style="color: #8A5A00; font-weight: 700; font-size: 13px; letter-spacing: 3px; text-transform: uppercase">Giải pháp</div>
+<h2 style="text-wrap: balance; margin: 12px 0 0; font-weight: 800; font-size: clamp(28px, 3vw, 38px); line-height: 1.15; letter-spacing: -0.02em">Học trên bài toán thật của chính bạn</h2>
+<p style="text-wrap: balance; margin: 18px 0 0; font-size: 18px; color: #3E4C5E">AI Mindset for SME Leaders &amp; Solopreneurs giúp bạn đi từ “thử AI” đến “vận hành bằng AI”. Bạn sẽ thực hành trên chính một quy trình của mình, từ lúc chuẩn hóa quy trình, chọn bài toán đến khi chạy thử thật, mà không cần biết lập trình hay có nền tảng kỹ thuật.</p>
+<div style="margin-top: 22px; display: inline-flex; align-items: center; gap: 10px; background: #E8F1F1; color: #0F5E5B; font-weight: 600; font-size: 15px; padding: 10px 16px; border-radius: 12px">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F5E5B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>
+Chỉ cần thao tác AI cơ bản và hiểu quy trình bạn chọn
+</div>
+</div>
+<div style="flex: 1 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+<div style="background: #1E3A5F; border-radius: 18px; padding: 26px">
+<div style="color: #E3BB6B; font-weight: 700; font-size: 13px; letter-spacing: 2.5px; text-transform: uppercase">Dành cho</div>
+<div style="text-wrap: balance; color: #FFFFFF; font-weight: 800; font-size: 22px; margin-top: 6px">Lãnh đạo SME</div>
+<div style="color: #C9D6E0; font-size: 16px; margin-top: 6px">Chủ doanh nghiệp, CEO, giám đốc và trưởng bộ phận muốn đưa AI vào quy trình của đội ngũ.</div>
+</div>
+<div style="background: #0F6E6B; border-radius: 18px; padding: 26px">
+<div style="color: #FFE3A8; font-weight: 700; font-size: 13px; letter-spacing: 2.5px; text-transform: uppercase">Dành cho</div>
+<div style="text-wrap: balance; color: #FFFFFF; font-weight: 800; font-size: 22px; margin-top: 6px">Solopreneur</div>
+<div style="color: #D8EEEC; font-size: 16px; margin-top: 6px">Người tự vận hành công việc kinh doanh, muốn giao cho AI những chuỗi việc lặp lại để tập trung vào phần chỉ mình làm được.</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- 3 TẦNG TƯ DUY -->
+<div style="background: #1E3A5F">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px">
+<div style="text-align: center">
+<div style="color: #E3BB6B; font-weight: 700; font-size: 13px; letter-spacing: 3px; text-transform: uppercase">Khung tư duy</div>
+<h2 style="text-wrap: balance; margin: 12px auto 0; color: #FFFFFF; font-weight: 800; font-size: clamp(28px, 3.6vw, 46px); line-height: 1.12; letter-spacing: -0.02em">Từ “giao câu lệnh” sang “giao mục tiêu”</h2>
+<p style="margin: 16px auto 0; color: #C9D6E0; font-size: 18px; max-width: 580px"><span style="display: inline-block; text-wrap: balance">Ba tầng giá trị của AI, từ một người làm việc cùng AI</span> <span style="display: inline-block; text-wrap: balance">đến năng lực mới cho cả tổ chức.</span></p>
+</div>
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; gap: 16px; margin-top: 56px">
+<div style="flex: 1 1 280px; min-width: 0; background: #127C77; border-radius: 18px; padding: 28px; min-height: 220px; box-sizing: border-box">
+<div style="color: #FFE3A8; font-weight: 700; font-size: 12px; letter-spacing: 2.5px; text-transform: uppercase">Cá nhân</div>
+<div style="text-wrap: balance; color: #FFFFFF; font-weight: 800; font-size: 24px; margin-top: 6px">Agentic Working</div>
+<div style="color: #DDF0EE; font-size: 16px; margin-top: 10px">Giao mục tiêu cho AI thực hiện nhiều bước, có công cụ và tự kiểm tra kết quả.</div>
+</div>
+<div style="flex: 1 1 280px; min-width: 0; background: #1B5E7A; border-radius: 18px; padding: 28px; min-height: 270px; box-sizing: border-box">
+<div style="color: #FFE3A8; font-weight: 700; font-size: 12px; letter-spacing: 2.5px; text-transform: uppercase">Quy trình</div>
+<div style="text-wrap: balance; color: #FFFFFF; font-weight: 800; font-size: 24px; margin-top: 6px">Agentic Workflow</div>
+<div style="color: #DCEAF2; font-size: 16px; margin-top: 10px">Tổ chức các bước thành quy trình có đầu vào, đầu ra, điều kiện chuyển bước và điểm người duyệt.</div>
+</div>
+<div style="flex: 1 1 280px; min-width: 0; background: #0F2A47; border: 1.5px solid rgba(227,187,107,0.6); border-radius: 18px; padding: 28px; min-height: 320px; box-sizing: border-box">
+<div style="color: #E3BB6B; font-weight: 700; font-size: 12px; letter-spacing: 2.5px; text-transform: uppercase">Tổ chức</div>
+<div style="text-wrap: balance; color: #FFFFFF; font-weight: 800; font-size: 24px; margin-top: 6px">Agentic Business</div>
+<div style="color: #C9D6E0; font-size: 16px; margin-top: 10px">Biến workflow đã kiểm chứng thành năng lực mới: chức năng mới, dịch vụ mới, hoặc giả lập trước khi đầu tư.</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- LỘ TRÌNH -->
+<div id="lo-trinh" style="max-width: 1200px; margin: 0 auto; padding: 96px 24px 96px">
+<div style="color: #8A5A00; font-weight: 700; font-size: 13px; letter-spacing: 3px; text-transform: uppercase">Lộ trình</div>
+<h2 style="text-wrap: balance; margin: 12px 0 0; font-weight: 800; font-size: clamp(30px, 3.6vw, 46px); line-height: 1.12; letter-spacing: -0.02em">5 buổi với 14 giờ giải quyết triệt để vấn đề</h2><div style="display: flex; flex-direction: column; gap: 16px; margin-top: 40px">
+
+<div style="background: #FFFFFF; border: 1px solid #DDE3E8; border-radius: 20px; padding: 28px; display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start">
+<div style="flex: 0 0 120px"><div style="color: #4F5D6E; font-weight: 700; font-size: 13px; letter-spacing: 2px; text-transform: uppercase">Buổi</div><div style="color: #1E3A5F; font-weight: 800; font-size: 48px; line-height: 1">1</div><div style="display: inline-block; margin-top: 10px; background: #EEF2F5; color: #1E3A5F; font-weight: 600; font-size: 13px; padding: 4px 10px; border-radius: 999px">3 giờ</div></div>
+<div style="flex: 999 1 380px; min-width: 0">
+<div style="text-wrap: balance; font-weight: 800; font-size: 24px">Agentic Vision và AI mindset</div>
+<div style="color: #0F6E6B; font-weight: 600; font-size: 16px; margin-top: 4px">Từ tầm nhìn lãnh đạo đến một bài toán có thể giao cho AI</div>
+<ul style="text-wrap: pretty; margin: 14px 0 0; padding-left: 20px; color: #3E4C5E; font-size: 16px; display: flex; flex-direction: column; gap: 6px">
+<li>Chuyển từ “giao câu lệnh” sang “giao mục tiêu” cho AI</li>
+<li>Hiểu 3 tầng giá trị của AI: cá nhân, quy trình và tổ chức</li>
+<li>Chọn 3 vấn đề thực tiễn nên ứng dụng AI trước</li>
+</ul>
+</div>
+<div style="flex: 1 1 260px; min-width: 0; background: #FBF5E7; border-radius: 14px; padding: 18px 20px">
+<div style="color: #8A5A00; font-weight: 700; font-size: 12px; letter-spacing: 2px; text-transform: uppercase">Kết quả sau buổi học</div>
+<div style="font-weight: 600; font-size: 16px; margin-top: 6px">Biết rõ 3 việc nên giao cho AI trước, và có bản mô tả (brief) cho 1 quy trình bạn chọn</div>
+</div>
+</div>
+
+<div style="background: #FFFFFF; border: 1px solid #DDE3E8; border-radius: 20px; padding: 28px; display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start">
+<div style="flex: 0 0 120px"><div style="color: #4F5D6E; font-weight: 700; font-size: 13px; letter-spacing: 2px; text-transform: uppercase">Buổi</div><div style="color: #1E3A5F; font-weight: 800; font-size: 48px; line-height: 1">2</div><div style="display: inline-block; margin-top: 10px; background: #EEF2F5; color: #1E3A5F; font-weight: 600; font-size: 13px; padding: 4px 10px; border-radius: 999px">3 giờ</div></div>
+<div style="flex: 999 1 380px; min-width: 0">
+<div style="text-wrap: balance; font-weight: 800; font-size: 24px">Thiết kế Agentic Workflow</div>
+<div style="color: #0F6E6B; font-weight: 600; font-size: 16px; margin-top: 4px">Đào sâu quy trình sản xuất content và media</div>
+<ul style="text-wrap: pretty; margin: 14px 0 0; padding-left: 20px; color: #3E4C5E; font-size: 16px; display: flex; flex-direction: column; gap: 6px">
+<li>Viết SOP (quy trình vận hành tiêu chuẩn) cho việc bạn chọn</li>
+<li>Thiết kế workflow AI đầu tiên dựa trên SOP đó</li>
+<li>Minh họa qua quy trình làm content và media</li>
+</ul>
+</div>
+<div style="flex: 1 1 260px; min-width: 0; background: #FBF5E7; border-radius: 14px; padding: 18px 20px">
+<div style="color: #8A5A00; font-weight: 700; font-size: 12px; letter-spacing: 2px; text-transform: uppercase">Kết quả sau buổi học</div>
+<div style="font-weight: 600; font-size: 16px; margin-top: 6px">Workflow AI đầu tiên cho quy trình của bạn, kèm SOP từng bước</div>
+</div>
+</div>
+
+<div style="background: #FFFFFF; border: 1px solid #DDE3E8; border-radius: 20px; padding: 28px; display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start">
+<div style="flex: 0 0 120px"><div style="color: #4F5D6E; font-weight: 700; font-size: 13px; letter-spacing: 2px; text-transform: uppercase">Buổi</div><div style="color: #1E3A5F; font-weight: 800; font-size: 48px; line-height: 1">3</div><div style="display: inline-block; margin-top: 10px; background: #EEF2F5; color: #1E3A5F; font-weight: 600; font-size: 13px; padding: 4px 10px; border-radius: 999px">3 giờ</div></div>
+<div style="flex: 999 1 380px; min-width: 0">
+<div style="text-wrap: balance; font-weight: 800; font-size: 24px">Vận hành và kiểm thử workflow</div>
+<div style="color: #0F6E6B; font-weight: 600; font-size: 16px; margin-top: 4px">Đào sâu chăm sóc khách hàng và hoàn thiện workflow trên đề bài thật</div>
+<ul style="text-wrap: pretty; margin: 14px 0 0; padding-left: 20px; color: #3E4C5E; font-size: 16px; display: flex; flex-direction: column; gap: 6px">
+<li>Chạy thử workflow ít nhất 5 phiên, kể cả những tình huống khó</li>
+<li>Đo thời gian, tỷ lệ đạt và chi phí để biết workflow có thật sự hiệu quả</li>
+<li>Minh họa qua quy trình chăm sóc khách hàng</li>
+</ul>
+</div>
+<div style="flex: 1 1 260px; min-width: 0; background: #FBF5E7; border-radius: 14px; padding: 18px 20px">
+<div style="color: #8A5A00; font-weight: 700; font-size: 12px; letter-spacing: 2px; text-transform: uppercase">Kết quả sau buổi học</div>
+<div style="font-weight: 600; font-size: 16px; margin-top: 6px">Workflow đã chạy thử, có số liệu so sánh trước và sau, kèm hướng dẫn vận hành 1 trang</div>
+</div>
+</div>
+
+<div style="background: #FFFFFF; border: 1px solid #DDE3E8; border-radius: 20px; padding: 28px; display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start">
+<div style="flex: 0 0 120px"><div style="color: #4F5D6E; font-weight: 700; font-size: 13px; letter-spacing: 2px; text-transform: uppercase">Buổi</div><div style="color: #1E3A5F; font-weight: 800; font-size: 48px; line-height: 1">4</div><div style="display: inline-block; margin-top: 10px; background: #EEF2F5; color: #1E3A5F; font-weight: 600; font-size: 13px; padding: 4px 10px; border-radius: 999px">3 giờ</div></div>
+<div style="flex: 999 1 380px; min-width: 0">
+<div style="text-wrap: balance; font-weight: 800; font-size: 24px">Agentic Business</div>
+<div style="color: #0F6E6B; font-weight: 600; font-size: 16px; margin-top: 4px">Tạo năng lực mới và trình bày đề xuất triển khai</div>
+<ul style="text-wrap: pretty; margin: 14px 0 0; padding-left: 20px; color: #3E4C5E; font-size: 16px; display: flex; flex-direction: column; gap: 6px">
+<li>Biến workflow thành năng lực mới cho tổ chức</li>
+<li>Phân vai rõ: ai bảo trợ, ai phụ trách quy trình, ai hỗ trợ đội ngũ dùng AI</li>
+<li>Trình bày đề xuất và nhận phản biện trực tiếp từ mentor</li>
+</ul>
+</div>
+<div style="flex: 1 1 260px; min-width: 0; background: #FBF5E7; border-radius: 14px; padding: 18px 20px">
+<div style="color: #8A5A00; font-weight: 700; font-size: 12px; letter-spacing: 2px; text-transform: uppercase">Kết quả sau buổi học</div>
+<div style="font-weight: 600; font-size: 16px; margin-top: 6px">Bản đề xuất triển khai và kế hoạch thử nghiệm 30 ngày tại doanh nghiệp</div>
+</div>
+</div>
+
+<div style="background: #1E3A5F; border-radius: 20px; padding: 28px; display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-start">
+<div style="flex: 0 0 120px"><div style="color: #C9D6E0; font-weight: 700; font-size: 13px; letter-spacing: 2px; text-transform: uppercase">Buổi</div><div style="color: #E3BB6B; font-weight: 800; font-size: 48px; line-height: 1">5</div><div style="display: inline-block; margin-top: 10px; background: rgba(255,255,255,0.12); color: #FFFFFF; font-weight: 600; font-size: 13px; padding: 4px 10px; border-radius: 999px">2 giờ</div></div>
+<div style="flex: 999 1 380px; min-width: 0">
+<div style="text-wrap: balance; color: #FFFFFF; font-weight: 800; font-size: 24px">Workshop Q&amp;A</div>
+<div style="color: #8FCFD4; font-weight: 600; font-size: 16px; margin-top: 4px">Sau khi bạn đã chạy thử workflow tại doanh nghiệp</div>
+<ul style="text-wrap: pretty; margin: 14px 0 0; padding-left: 20px; color: #C9D6E0; font-size: 16px; display: flex; flex-direction: column; gap: 6px">
+<li>Mang kết quả chạy thử thật đến lớp để được góp ý</li>
+<li>Điều chỉnh workflow và giải đáp thắc mắc cùng mentor</li>
+</ul>
+</div>
+<div style="flex: 1 1 260px; min-width: 0; background: rgba(227,187,107,0.14); border: 1px solid rgba(227,187,107,0.45); border-radius: 14px; padding: 18px 20px">
+<div style="color: #E3BB6B; font-weight: 700; font-size: 12px; letter-spacing: 2px; text-transform: uppercase">Kết quả sau buổi học</div>
+<div style="color: #FFFFFF; font-weight: 600; font-size: 16px; margin-top: 6px">Workflow được chỉnh lại theo kết quả chạy thật, và các bước triển khai tiếp theo</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<!-- CÁCH HỌC HYBRID -->
+<div style="background: #E9EEF1">
+<div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px">
+<div style="color: #8A5A00; font-weight: 700; font-size: 13px; letter-spacing: 3px; text-transform: uppercase">Cách học</div>
+<h2 style="text-wrap: balance; margin: 12px 0 0; font-weight: 800; font-size: clamp(30px, 3.6vw, 46px); line-height: 1.12; letter-spacing: -0.02em">Học online vẫn được chữa bài như ngồi tại lớp</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 24px; margin-top: 36px; align-items: stretch">
+<div style="flex: 1.25 1 340px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+<div style="flex: 1 1 auto; background: #FFFFFF; border-radius: 16px; padding: 20px 22px; display: flex; flex-direction: column; justify-content: center"><div style="font-weight: 700; font-size: 18px">Một bài toán xuyên suốt</div><div style="color: #4F5D6E; font-size: 15px; margin-top: 6px">Mỗi học viên làm việc trên quy trình của mình, từ brief buổi 1 đến đề xuất buổi 4.</div></div>
+<div style="flex: 1 1 auto; background: #FFFFFF; border-radius: 16px; padding: 20px 22px; display: flex; flex-direction: column; justify-content: center"><div style="font-weight: 700; font-size: 18px">Bảng chung trực tuyến</div><div style="color: #4F5D6E; font-size: 15px; margin-top: 6px">Nơi nộp brief, workflow, kết quả kiểm thử và đề xuất; xem và bình luận bài của nhau.</div></div>
+<div style="flex: 1 1 auto; background: #FFFFFF; border-radius: 16px; padding: 20px 22px; display: flex; flex-direction: column; justify-content: center"><div style="font-weight: 700; font-size: 18px">Chữa bài trên màn hình chung</div><div style="color: #4F5D6E; font-size: 15px; margin-top: 6px">Mỗi buổi mentor chọn 2–3 bài tiêu biểu để phản biện trực tiếp cho cả lớp.</div></div>
+<div style="flex: 1 1 auto; background: #FFFFFF; border-radius: 16px; padding: 20px 22px; display: flex; flex-direction: column; justify-content: center"><div style="font-weight: 700; font-size: 18px">Trợ giảng theo dõi chat</div><div style="color: #4F5D6E; font-size: 15px; margin-top: 6px">Hỗ trợ học viên trực tuyến suốt buổi và chuyển câu hỏi cho mentor.</div></div>
+</div>
+<div style="flex: 1 1 380px; min-width: 0; display: flex; flex-direction: column">
+<div class="car" data-theme="light" style="position: relative; flex: 1 1 auto; display: flex; flex-direction: column">
+<div class="car-track" style="flex: 1 1 auto; display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; border-radius: 20px; box-shadow: 0 14px 40px rgba(30,58,95,0.18); scrollbar-width: none">
+<img src="https://workshop.cungai.vn/images/sq-1.jpg" alt="Mentor giảng về prompt trong một lớp workshop AI" style="flex: 0 0 100%; width: 100%; height: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; scroll-snap-align: center">
+<img src="https://workshop.cungai.vn/images/sq-2.jpg" alt="Mentor demo công cụ AI trên màn hình cho học viên" style="flex: 0 0 100%; width: 100%; height: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; scroll-snap-align: center">
+<img src="https://workshop.cungai.vn/images/sq-3.jpg" alt="Mentor hướng dẫn bài tập thực hành cho học viên" style="flex: 0 0 100%; width: 100%; height: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; scroll-snap-align: center">
+<img src="https://workshop.cungai.vn/images/sq-4.jpg" alt="Anh Đinh Trần Tuấn Linh giảng dạy về AI trước một lớp học đông học viên" style="flex: 0 0 100%; width: 100%; height: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; scroll-snap-align: center">
+<img src="https://workshop.cungai.vn/images/sq-5.jpg" alt="Mentor trình bày về ứng dụng AI trong công việc" style="flex: 0 0 100%; width: 100%; height: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; scroll-snap-align: center">
+<img src="https://workshop.cungai.vn/images/sq-6.jpg" alt="Buổi chia sẻ AI cho phát triển với học viên" style="flex: 0 0 100%; width: 100%; height: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; scroll-snap-align: center">
+</div>
+<div style="position: absolute; left: 0; right: 0; bottom: 0; height: 72px; border-radius: 0 0 20px 20px; background: linear-gradient(to top, rgba(10,24,44,0.55), rgba(10,24,44,0)); pointer-events: none"></div>
+<button type="button" class="car-prev" aria-label="Ảnh trước" style="position: absolute; top: 50%; transform: translateY(-50%); width: 48px; height: 48px; border-radius: 50%; border: none; background: rgba(255,255,255,0.94); box-shadow: 0 4px 14px rgba(0,0,0,0.22); display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; left: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E3A5F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg></button>
+<button type="button" class="car-next" aria-label="Ảnh tiếp theo" style="position: absolute; top: 50%; transform: translateY(-50%); width: 48px; height: 48px; border-radius: 50%; border: none; background: rgba(255,255,255,0.94); box-shadow: 0 4px 14px rgba(0,0,0,0.22); display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; right: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E3A5F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></button>
+<div style="position: absolute; left: 0; right: 0; bottom: 8px; display: flex; align-items: center; justify-content: center; gap: 4px">
+<button type="button" class="car-dot" aria-label="Xem ảnh lớp học 1" style="width: 36px; height: 36px; border: none; background: transparent; padding: 0; display: flex; align-items: center; justify-content: center; cursor: pointer"><span></span></button>
+<button type="button" class="car-dot" aria-label="Xem ảnh lớp học 2" style="width: 36px; height: 36px; border: none; background: transparent; padding: 0; display: flex; align-items: center; justify-content: center; cursor: pointer"><span></span></button>
+<button type="button" class="car-dot" aria-label="Xem ảnh lớp học 3" style="width: 36px; height: 36px; border: none; background: transparent; padding: 0; display: flex; align-items: center; justify-content: center; cursor: pointer"><span></span></button>
+<button type="button" class="car-dot" aria-label="Xem ảnh lớp học 4" style="width: 36px; height: 36px; border: none; background: transparent; padding: 0; display: flex; align-items: center; justify-content: center; cursor: pointer"><span></span></button>
+<button type="button" class="car-dot" aria-label="Xem ảnh lớp học 5" style="width: 36px; height: 36px; border: none; background: transparent; padding: 0; display: flex; align-items: center; justify-content: center; cursor: pointer"><span></span></button>
+<button type="button" class="car-dot" aria-label="Xem ảnh lớp học 6" style="width: 36px; height: 36px; border: none; background: transparent; padding: 0; display: flex; align-items: center; justify-content: center; cursor: pointer"><span></span></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- HỎI ĐÁP CÙNG MENTOR -->
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px 24px">
+<div style="text-align: center">
+<div style="color: #8A5A00; font-weight: 700; font-size: 13px; letter-spacing: 3px; text-transform: uppercase">Hỏi đáp cùng mentor</div>
+<h2 style="text-wrap: balance; margin: 12px 0 0; font-weight: 800; font-size: clamp(30px, 3.6vw, 46px); line-height: 1.12; letter-spacing: -0.02em">Bí ở đâu, gỡ ở đó</h2>
+<p style="text-wrap: balance; margin: 14px auto 0; font-size: 18px; color: #3E4C5E; max-width: 680px">Trao đổi thực tế giữa học viên và mentor trong quá trình áp dụng AI vào công việc.</p>
+</div>
+<div class="car" style="max-width: 680px; margin: 40px auto 0">
+<div style="position: relative">
+<div class="car-track" style="display: flex; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth; border-radius: 20px; box-shadow: 0 14px 40px rgba(30,58,95,0.2); scrollbar-width: none">
+<img src="https://workshop.cungai.vn/images/tally2.jpg" alt="Mentor chia sẻ cách học và khuyến khích học viên đặt câu hỏi" style="flex: 0 0 100%; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; scroll-snap-align: center">
+<img src="https://workshop.cungai.vn/images/tally3.jpg" alt="Mentor giải đáp câu hỏi của học viên về content, thiết kế và bảo mật khi dùng AI" style="flex: 0 0 100%; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; scroll-snap-align: center">
+<img src="https://workshop.cungai.vn/images/tally4.jpg" alt="Học viên hỏi cách kết hợp NotebookLM và Claude, mentor trả lời" style="flex: 0 0 100%; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; scroll-snap-align: center">
+<img src="https://workshop.cungai.vn/images/tally5.jpg" alt="Mentor hướng dẫn chi tiết cách xử lý khi AI làm sai hoặc quên yêu cầu" style="flex: 0 0 100%; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; scroll-snap-align: center">
+</div>
+<button type="button" class="car-prev" aria-label="Ảnh trước" style="position: absolute; top: 50%; transform: translateY(-50%); width: 48px; height: 48px; border-radius: 50%; border: none; background: rgba(255,255,255,0.94); box-shadow: 0 4px 14px rgba(0,0,0,0.22); display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; left: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E3A5F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg></button>
+<button type="button" class="car-next" aria-label="Ảnh tiếp theo" style="position: absolute; top: 50%; transform: translateY(-50%); width: 48px; height: 48px; border-radius: 50%; border: none; background: rgba(255,255,255,0.94); box-shadow: 0 4px 14px rgba(0,0,0,0.22); display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; right: 12px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1E3A5F" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></button>
+</div>
+<div style="display: flex; align-items: center; justify-content: center; gap: 4px; margin-top: 14px">
+<button type="button" class="car-dot" aria-label="Xem ảnh 1" style="width: 36px; height: 36px; border: none; background: transparent; padding: 0; display: flex; align-items: center; justify-content: center; cursor: pointer"><span></span></button>
+<button type="button" class="car-dot" aria-label="Xem ảnh 2" style="width: 36px; height: 36px; border: none; background: transparent; padding: 0; display: flex; align-items: center; justify-content: center; cursor: pointer"><span></span></button>
+<button type="button" class="car-dot" aria-label="Xem ảnh 3" style="width: 36px; height: 36px; border: none; background: transparent; padding: 0; display: flex; align-items: center; justify-content: center; cursor: pointer"><span></span></button>
+<button type="button" class="car-dot" aria-label="Xem ảnh 4" style="width: 36px; height: 36px; border: none; background: transparent; padding: 0; display: flex; align-items: center; justify-content: center; cursor: pointer"><span></span></button>
+</div>
+</div>
+</div>
+
+<!-- MENTOR -->
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px">
+<div style="text-align: center">
+<div style="color: #8A5A00; font-weight: 700; font-size: 13px; letter-spacing: 3px; text-transform: uppercase">Đội ngũ mentor uy tín</div>
+<h2 style="text-wrap: balance; margin: 12px 0 0; font-weight: 800; font-size: clamp(30px, 3.6vw, 46px); line-height: 1.12; letter-spacing: -0.02em">Những người trực tiếp xây sản phẩm AI</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-top: 44px">
+<div style="background: #FFFFFF; border: 1px solid #DDE3E8; border-radius: 20px; padding: 28px 22px; text-align: center">
+<img loading="lazy" src="https://workshop.cungai.vn/images/mentor-portrait.jpg" alt="Đinh Trần Tuấn Linh" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 4px solid #E3BB6B; box-sizing: border-box; display: block; margin: 0 auto">
+<div style="text-wrap: balance; font-weight: 800; font-size: 20px; margin-top: 18px">Đinh Trần Tuấn Linh</div>
+<div style="color: #0F6E6B; font-weight: 600; font-size: 15px; margin-top: 4px">Co-founder &amp; CTO UNIKON</div>
+<div style="color: #4F5D6E; font-size: 14px; margin-top: 10px">20 năm kinh nghiệm trong lĩnh vực công nghệ, tiên phong nghiên cứu và ứng dụng AI; cung cấp giải pháp sáng tạo cho Samsung, OMO, Clear, Techcombank, Vietcombank.</div>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #DDE3E8; border-radius: 20px; padding: 28px 22px; text-align: center">
+<img loading="lazy" src="https://workshop.cungai.vn/images/mentor-phuong.jpg" alt="Phương Võ" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 4px solid #E3BB6B; box-sizing: border-box; display: block; margin: 0 auto">
+<div style="text-wrap: balance; font-weight: 800; font-size: 20px; margin-top: 18px">Phương Võ</div>
+<div style="color: #0F6E6B; font-weight: 600; font-size: 15px; margin-top: 4px">Business Technologist<br>Product - Data</div>
+<div style="color: #4F5D6E; font-size: 14px; margin-top: 10px">Hơn 7 năm xây dựng chiến lược và roadmap sản phẩm, lead MVP và triển khai sản phẩm từ ý tưởng đến go-live.</div>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #DDE3E8; border-radius: 20px; padding: 28px 22px; text-align: center">
+<img loading="lazy" src="https://workshop.cungai.vn/images/mentor-vananh.jpg" alt="Phạm Vân Anh" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 4px solid #E3BB6B; box-sizing: border-box; display: block; margin: 0 auto">
+<div style="text-wrap: balance; font-weight: 800; font-size: 20px; margin-top: 18px">Phạm Vân Anh</div>
+<div style="color: #0F6E6B; font-weight: 600; font-size: 15px; margin-top: 4px">Chuyên gia Marketing &amp; Phát triển nội dung</div>
+<div style="color: #4F5D6E; font-size: 14px; margin-top: 10px">Hơn 5 năm huấn luyện, ứng dụng AI vào nhiều chiến dịch marketing cho thương hiệu lớn.</div>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #DDE3E8; border-radius: 20px; padding: 28px 22px; text-align: center">
+<img loading="lazy" src="https://workshop.cungai.vn/images/mentor-hivi.jpg" alt="Nguyễn Thị Hiếu - Hivi" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 4px solid #E3BB6B; box-sizing: border-box; display: block; margin: 0 auto">
+<div style="text-wrap: balance; font-weight: 800; font-size: 20px; margin-top: 18px">Nguyễn Thị Hiếu - Hivi</div>
+<div style="color: #0F6E6B; font-weight: 600; font-size: 15px; margin-top: 4px">Chuyên gia tối ưu quy trình</div>
+<div style="color: #4F5D6E; font-size: 14px; margin-top: 10px">Thực hành và chia sẻ ứng dụng AI trong tối ưu quy trình làm việc và nâng cao hiệu suất.</div>
+</div>
+</div>
+<div style="text-align: center; color: #4F5D6E; font-size: 16px; margin-top: 24px">… cùng các chuyên gia khác đang trực tiếp làm nghề và ứng dụng AI tại Việt Nam</div>
+</div>
+
+<!-- QUYỀN LỢI -->
+<div style="background: #1E3A5F">
+<div style="max-width: 1200px; margin: 0 auto; padding: 96px 24px">
+<div style="color: #E3BB6B; font-weight: 700; font-size: 13px; letter-spacing: 3px; text-transform: uppercase">Quyền lợi</div>
+<h2 style="text-wrap: balance; margin: 12px 0 0; color: #FFFFFF; font-weight: 800; font-size: clamp(30px, 3.6vw, 46px); line-height: 1.12; letter-spacing: -0.02em; max-width: 820px">Bạn nhận được gì khi tham gia</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 32px; margin-top: 40px">
+<div style="flex: 999 1 460px; min-width: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px">
+<div style="background: #1A3456; border: 1px solid rgba(143,179,196,0.25); border-radius: 16px; padding: 22px"><div style="color: #E3BB6B; font-weight: 800; font-size: 15px">Tư duy nền tảng</div><div style="color: #D6E2EA; font-size: 16px; margin-top: 6px">Linh hoạt làm chủ công nghệ, không phụ thuộc vào bất kỳ công cụ nào.</div></div>
+<div style="background: #1A3456; border: 1px solid rgba(143,179,196,0.25); border-radius: 16px; padding: 22px"><div style="color: #E3BB6B; font-weight: 800; font-size: 15px">Thực hành “cầm tay chỉ việc”</div><div style="color: #D6E2EA; font-size: 16px; margin-top: 6px">Thực hành trực tiếp trên quy trình của chính doanh nghiệp bạn, không phải bài tập mẫu.</div></div>
+<div style="background: #1A3456; border: 1px solid rgba(143,179,196,0.25); border-radius: 16px; padding: 22px"><div style="color: #E3BB6B; font-weight: 800; font-size: 15px">Online hoặc offline, có recording</div><div style="color: #D6E2EA; font-size: 16px; margin-top: 6px">Học online hoặc tại lớp ở Hà Nội; nhận recording từng buổi đã đăng ký.</div></div>
+<div style="background: #1A3456; border: 1px solid rgba(143,179,196,0.25); border-radius: 16px; padding: 22px"><div style="color: #E3BB6B; font-weight: 800; font-size: 15px">Được mentor chữa bài</div><div style="color: #D6E2EA; font-size: 16px; margin-top: 6px">Bài tiêu biểu được phản biện trực tiếp trên màn hình chung cho cả lớp cùng học.</div></div>
+<div style="background: #1A3456; border: 1px solid rgba(143,179,196,0.25); border-radius: 16px; padding: 22px"><div style="color: #E3BB6B; font-weight: 800; font-size: 15px">Trọn bộ sản phẩm</div><div style="color: #D6E2EA; font-size: 16px; margin-top: 6px">Brief, sơ đồ workflow, bảng kiểm thử, hướng dẫn vận hành 1 trang, đề xuất triển khai và kế hoạch 30 ngày.</div></div>
+<div style="background: #1A3456; border: 1px solid rgba(143,179,196,0.25); border-radius: 16px; padding: 22px"><div style="color: #E3BB6B; font-weight: 800; font-size: 15px">30 ngày hỏi đáp miễn phí</div><div style="color: #D6E2EA; font-size: 16px; margin-top: 6px">Hỏi đáp trong cộng đồng về vướng mắc khi đưa AI vào quy trình doanh nghiệp.</div></div>
+</div>
+<div style="flex: 1 1 300px; min-width: 0; background: #FFFFFF; border-radius: 20px; padding: 28px; box-sizing: border-box">
+<div style="color: #8A5A00; font-weight: 700; font-size: 12px; letter-spacing: 2px; text-transform: uppercase">Bộ tài liệu học viên</div>
+<ul style="text-wrap: pretty; margin: 14px 0 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 12px; font-size: 16px; color: #2A3B50">
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F6E6B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M20 6 9 17l-5-5"></path></svg>Slide bài giảng</li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F6E6B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M20 6 9 17l-5-5"></path></svg>Mẫu brief giao việc</li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F6E6B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M20 6 9 17l-5-5"></path></svg>Mẫu phân tích SOP và sơ đồ workflow</li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F6E6B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M20 6 9 17l-5-5"></path></svg>Mẫu hướng dẫn hoặc skill</li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F6E6B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M20 6 9 17l-5-5"></path></svg>Checklist duyệt content, media và CSKH</li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F6E6B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M20 6 9 17l-5-5"></path></svg>Bảng kiểm thử và đo hiệu quả</li>
+<li style="display: flex; gap: 10px; align-items: flex-start"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F6E6B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex: none; margin-top: 3px"><path d="M20 6 9 17l-5-5"></path></svg>Mẫu đề xuất 5 slide và kế hoạch 30 ngày</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<!-- THÔNG TIN & ĐĂNG KÝ -->
+<div id="dang-ky" style="max-width: 1200px; margin: 0 auto; padding: 96px 24px">
+<div style="background: #1E3A5F; border-radius: 24px; padding: clamp(28px, 4vw, 52px); display: flex; flex-wrap: wrap; align-items: center; gap: 32px 56px">
+<div style="flex: 999 1 380px; min-width: 0">
+<div style="color: #E3BB6B; font-weight: 700; font-size: 13px; letter-spacing: 3px; text-transform: uppercase">Thông tin workshop</div>
+<div style="margin-top: 10px">
+<div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; padding: 14px 0; border-bottom: 1px solid rgba(143,179,196,0.25)"><div style="flex: 0 0 170px; color: #A9BBC9; font-size: 16px; font-weight: 600">Thời gian</div><div style="color: #FFFFFF; font-weight: 800; font-size: 22px">2 buổi tối/tuần</div></div>
+<div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; padding: 14px 0"><div style="flex: 0 0 170px; color: #A9BBC9; font-size: 16px; font-weight: 600">Lịch khai giảng</div><div style="color: #FFFFFF; font-weight: 800; font-size: 22px">Dự kiến đầu tháng 11/2026</div></div>
+</div>
+</div>
+<div style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 12px">
+<del style="color: #9FB2C2; font-size: 20px; font-weight: 600">10.000.000đ</del>
+<span style="color: #FFFFFF; font-size: clamp(34px, 3.6vw, 44px); font-weight: 800; line-height: 1.1">9.000.000đ</span>
+</div>
+<div style="color: #F0C987; font-size: 15px; font-weight: 600; text-wrap: balance">Ưu đãi giảm 10% khi đăng ký nhóm từ 2 người trở lên</div>
+<a href="https://tally.so/r/aONGoy" class="btn-cta" style="margin-top: 6px; background: #E3BB6B; color: #1E3A5F; font-weight: 800; font-size: 17px; text-decoration: none; padding: 16px 28px; border-radius: 999px; min-height: 56px; box-sizing: border-box; display: flex; align-items: center; justify-content: center">Đăng ký ngay</a>
+<div style="color: #8FCFD4; font-size: 14px; text-wrap: balance">Đăng ký hợp lệ khi hoàn thành form đăng ký và chuyển khoản</div>
+</div>
+</div>
+</div>
+
+<!-- FAQ -->
+<div style="background: #E9EEF1">
+<div style="max-width: 880px; margin: 0 auto; padding: 88px 24px">
+<div style="text-align: center">
+<div style="color: #8A5A00; font-weight: 700; font-size: 13px; letter-spacing: 3px; text-transform: uppercase">Câu hỏi thường gặp</div>
+<h2 style="text-wrap: balance; margin: 12px 0 0; font-weight: 800; font-size: clamp(30px, 3.6vw, 42px); line-height: 1.12; letter-spacing: -0.02em">Trước khi bạn đăng ký</h2>
+</div>
+<div style="display: flex; flex-direction: column; gap: 12px; margin-top: 36px">
+<details open="" style="background: #FFFFFF; border-radius: 16px; padding: 20px 28px"><summary style="list-style: none; cursor: pointer; display: flex; align-items: center; gap: 14px; font-weight: 700; font-size: 18px"><span class="faq-ic" style="flex: none; width: 30px; height: 30px; border-radius: 50%; background: #EEF2F5; display: flex; align-items: center; justify-content: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E3A5F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></span><span>Tôi không biết lập trình, có học được không?</span></summary><div style="color: #4F5D6E; font-size: 16px; margin-top: 10px; padding-left: 44px">Được. Workshop không yêu cầu lập trình. Bạn chỉ cần thao tác AI cơ bản và hiểu quy trình mình chọn làm đề bài.</div></details>
+<details style="background: #FFFFFF; border-radius: 16px; padding: 20px 28px"><summary style="list-style: none; cursor: pointer; display: flex; align-items: center; gap: 14px; font-weight: 700; font-size: 18px"><span class="faq-ic" style="flex: none; width: 30px; height: 30px; border-radius: 50%; background: #EEF2F5; display: flex; align-items: center; justify-content: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E3A5F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></span><span>Doanh nghiệp tôi chưa có quy trình chuẩn thì sao?</span></summary><div style="color: #4F5D6E; font-size: 16px; margin-top: 10px; padding-left: 44px">Bạn mô tả quy trình hiện tại và chuẩn đầu ra mong muốn. Buổi 2 sẽ giải phẫu và chuẩn hóa thành SOP trước khi thiết kế workflow.</div></details>
+<details style="background: #FFFFFF; border-radius: 16px; padding: 20px 28px"><summary style="list-style: none; cursor: pointer; display: flex; align-items: center; gap: 14px; font-weight: 700; font-size: 18px"><span class="faq-ic" style="flex: none; width: 30px; height: 30px; border-radius: 50%; background: #EEF2F5; display: flex; align-items: center; justify-content: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E3A5F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></span><span>Tôi là solopreneur, không có đội ngũ, có phù hợp không?</span></summary><div style="color: #4F5D6E; font-size: 16px; margin-top: 10px; padding-left: 44px">Phù hợp. Mỗi học viên tự đảm nhận các vai người giao việc, vận hành AI, duyệt và ghi kết quả; bạn có thể mời một cộng sự làm người duyệt.</div></details>
+<details style="background: #FFFFFF; border-radius: 16px; padding: 20px 28px"><summary style="list-style: none; cursor: pointer; display: flex; align-items: center; gap: 14px; font-weight: 700; font-size: 18px"><span class="faq-ic" style="flex: none; width: 30px; height: 30px; border-radius: 50%; background: #EEF2F5; display: flex; align-items: center; justify-content: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E3A5F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></span><span>Học trực tuyến có được hỗ trợ như học tại lớp không?</span></summary><div style="color: #4F5D6E; font-size: 16px; margin-top: 10px; padding-left: 44px">Có. Mọi học viên nộp bài trên bảng chung, theo dõi chữa bài trên màn hình chung, có trợ giảng theo dõi chat suốt buổi và nhận recording từng buổi.</div></details>
+<details style="background: #FFFFFF; border-radius: 16px; padding: 20px 28px"><summary style="list-style: none; cursor: pointer; display: flex; align-items: center; gap: 14px; font-weight: 700; font-size: 18px"><span class="faq-ic" style="flex: none; width: 30px; height: 30px; border-radius: 50%; background: #EEF2F5; display: flex; align-items: center; justify-content: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1E3A5F" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></span><span>Dữ liệu doanh nghiệp của tôi có an toàn không?</span></summary><div style="color: #4F5D6E; font-size: 16px; margin-top: 10px; padding-left: 44px">Bài toán trong lớp chỉ dùng dữ liệu được phép chia sẻ và đã ẩn danh. Phản hồi khách hàng và nội dung đăng tải được giữ ở dạng bản nháp để kiểm tra.</div></details>
+</div>
+</div>
+</div>
+
+<!-- CTA CUỐI -->
+<div style="background: #1E3A5F; position: relative; overflow: hidden">
+<div style="max-width: 1200px; margin: 0 auto; padding: 88px 24px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 20px">
+<h2 style="text-wrap: balance; margin: 0; color: #FFFFFF; font-weight: 800; font-size: clamp(30px, 4vw, 52px); line-height: 1.1; letter-spacing: -0.02em; max-width: 860px">Sẵn sàng đưa AI từ “thử” sang <span style="color: #E3BB6B">“vận hành”</span>?</h2>
+<p style="text-wrap: balance; margin: 0; color: #C9D6E0; font-size: 18px; max-width: 640px">Giảm 10% khi đăng ký theo nhóm từ 2 người trở lên.</p>
+<a href="https://tally.so/r/aONGoy" class="btn-cta" style="background: #E3BB6B; color: #1E3A5F; font-weight: 800; font-size: 18px; text-decoration: none; padding: 18px 36px; border-radius: 999px; min-height: 56px; box-sizing: border-box; display: inline-flex; align-items: center">Đăng ký ngay</a>
+</div>
+<div style="border-top: 1px solid rgba(143,179,196,0.2); background: #172E4D">
+<div style="max-width: 1200px; margin: 0 auto; padding: 48px 24px; display: flex; flex-wrap: wrap; gap: 36px 48px">
+<div style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+<div style="color: #A9BBC9; font-size: 14px; line-height: 1.7; text-transform: uppercase; text-wrap: pretty">Công ty TNHH MTV NAP Collective<br>ĐKKD số: 0111438945 được Phòng ĐKKD và Tài chính doanh nghiệp Sở Tài chính TP. Hà Nội cấp ngày 31/03/2026</div>
+<div style="align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; border: 1px solid rgba(143,179,196,0.35); border-radius: 10px; padding: 9px 14px; color: #C9D6E0; font-weight: 700; font-size: 13px; letter-spacing: 1px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#E3BB6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>DMCA PROTECTED</div>
+</div>
+<div style="flex: 1 1 220px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+<div style="color: #FFFFFF; font-weight: 700; font-size: 17px">Hỗ trợ khách hàng</div>
+<a href="#" style="color: #C9D6E0; text-decoration: none; font-size: 15px">Chính sách bảo mật</a>
+<a href="#" style="color: #C9D6E0; text-decoration: none; font-size: 15px">Chính sách giao nhận</a>
+<a href="#" style="color: #C9D6E0; text-decoration: none; font-size: 15px">Chính sách thanh toán</a>
+<a href="#" style="color: #C9D6E0; text-decoration: none; font-size: 15px">Điều khoản dịch vụ chung</a>
+</div>
+<div style="flex: 1 1 260px; min-width: 0; display: flex; flex-direction: column; gap: 12px; color: #C9D6E0; font-size: 15px">
+<div style="color: #FFFFFF; font-weight: 700; font-size: 17px">© Copyright 2026</div>
+<div>Điện thoại: <a href="tel:0961946810" style="color: #C9D6E0; text-decoration: none">0961.946.810</a></div>
+<div style="text-wrap: pretty">Địa chỉ: Số 12A3, Phố Lý Nam Đế, Phường Hoàn Kiếm, Thành phố Hà Nội</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<script>
+document.querySelectorAll('.car').forEach(function(c){
+  var t = c.querySelector('.car-track');
+  var dots = [].slice.call(c.querySelectorAll('.car-dot'));
+  var n = dots.length;
+  var autoTimer = null;
+  var isHovered = false;
+
+  function idx(){ 
+    return Math.round(t.scrollLeft / (t.clientWidth || 1)); 
+  }
+
+  function go(i){ 
+    i = (i + n) % n; 
+    t.scrollTo({ left: i * t.clientWidth, behavior: 'smooth' }); 
+  }
+
+  function paint(){ 
+    var i = idx(); 
+    dots.forEach(function(d, k){ 
+      d.firstChild.style.cssText = 'display:block;height:10px;border-radius:999px;transition:width .2s;' + 
+        (c.dataset.theme === 'light' 
+          ? (k === i ? 'width:26px;background:#fff' : 'width:10px;background:rgba(255,255,255,.55)') 
+          : (k === i ? 'width:26px;background:#1E3A5F' : 'width:10px;background:#A9B6C2')); 
+    }); 
+  }
+
+  function startAuto(){
+    stopAuto();
+    autoTimer = setInterval(function(){
+      if (!isHovered) {
+        go(idx() + 1);
+      }
+    }, 3500);
+  }
+
+  function stopAuto(){
+    if (autoTimer) {
+      clearInterval(autoTimer);
+      autoTimer = null;
+    }
+  }
+
+  c.querySelector('.car-prev').addEventListener('click', function(){ 
+    go(idx() - 1); 
+    startAuto(); 
+  });
+  
+  c.querySelector('.car-next').addEventListener('click', function(){ 
+    go(idx() + 1); 
+    startAuto(); 
+  });
+  
+  dots.forEach(function(d, k){ 
+    d.addEventListener('click', function(){ 
+      go(k); 
+      startAuto(); 
+    }); 
+  });
+
+  // Tạm dừng khi di chuột vào và tiếp tục khi chuột rời đi
+  c.addEventListener('mouseenter', function(){
+    isHovered = true;
+    stopAuto();
+  });
+
+  c.addEventListener('mouseleave', function(){
+    isHovered = false;
+    startAuto();
+  });
+
+  // Hỗ trợ cảm ứng trên thiết bị di động
+  c.addEventListener('touchstart', function(){
+    isHovered = true;
+    stopAuto();
+  }, { passive: true });
+
+  c.addEventListener('touchend', function(){
+    isHovered = false;
+    startAuto();
+  }, { passive: true });
+
+  t.addEventListener('scroll', function(){ 
+    window.requestAnimationFrame(paint); 
+  });
+
+  paint();
+  startAuto();
+});
+</script>
+</body>
+</html>

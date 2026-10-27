@@ -1,0 +1,11 @@
+Options -MultiViews
+RewriteEngine On
+
+# Redirect to add trailing slash to ai-sme if requested as directory
+RewriteBase /ai-sme/
+
+# If file or directory does not exist, check for .html extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]

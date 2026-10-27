@@ -1,0 +1,29 @@
+{
+  "hosting": {
+    "public": "out",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "redirects": [
+      {
+        "source": "/",
+        "destination": "/ai-sme",
+        "type": 302
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/ai-sme/**",
+        "destination": "/ai-sme/index.html"
+      },
+      {
+        "source": "**",
+        "destination": "/ai-sme/index.html"
+      }
+    ]
+  }
+}
